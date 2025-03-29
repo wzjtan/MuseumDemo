@@ -1,0 +1,221 @@
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0,0,0,1) 9%,rgba(0,0,0,0.74) 20%,rgba(0,0,0,0.02) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0.64) 80%,rgba(0,0,0,0.8) 87%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to right, rgba(0,0,0,1) 9%,rgba(0,0,0,0.74) 20%,rgba(0,0,0,0.02) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0.64) 80%,rgba(0,0,0,0.8) 87%,rgba(0,0,0,1) 93%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+} 
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.base {
+  background-color: black;
+}
+
+.navbar a {
+  color:white;
+}
+
+.navbar a:hover {
+  color:red;
+}
+
+.navbar-base {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 48%, rgba(255,255,255,0) 100%);
+}
+
+.main {
+  width: 100%;
+  min-height: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/neel.jpg);
+  box-shadow: 1px 1px 100px 100px black inset; /* linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(9,9,121,0) 48%, rgba(0,0,0,1) 80%), Original Gradient line*/
+  background-size: cover;
+  font-size: 4rem;
+  text-shadow: 13px 12px 10px #000000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.exhibits {
+  background-color: white;
+  color: black;
+}
+
+.visiting {
+  background-color: white;
+  color: black;
+}
+
+.visiting img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.exh-banner {
+  font-family: "Cinzel", serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px #000000;   
+  color: rgb(255, 255, 255);
+}
+
+.exh-1 {
+  background-image: url(images/Americas/Coronation\ Stone\ of\ Motecuhzoma\ II\ \(Stone\ of\ the\ Five\ Suns\).jpg);
+  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
+  background-position: 30% 25%;
+}
+
+.exh-2 {
+  background-image: url(images/Europe/Bust\ Of\ A\ Youth.jpg);
+  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
+  background-position: 30% 35%;
+}
+
+.exh-3 {
+  background-image: url(images/Egypt/bust.jpg);
+  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
+  background-position: 75% 30%;
+}
+
+.exh-4 {
+  background-image: url(images/Asia/Bodhisattva.jpg);
+  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
+  background-position: 30% 15%;
+}
+
+a:hover {
+  color:red;
+}
+
+.exh-1-text {
+  color:#73C2FB;
+}
+
+.exh-2-text {
+  color: rgb(220, 17, 17)
+}
+
+.exh-3-text {
+  color: #3c7a6e;
+}
+
+.exh-4-text {
+  color: rgb(241, 241, 15)
+}
+
+.exh-banner:hover {
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#exh-banner-1-inner:hover {
+  color: #73C2FB;
+}
+
+#exh-banner-2-inner:hover {
+  color: rgb(220, 17, 17)
+}
+
+#exh-banner-3-inner:hover {
+  color: #3c7a6e;
+}
+
+#exh-banner-4-inner:hover {
+  color: rgb(241, 241, 15)
+}
+
+.input-width {
+  max-width: 60%;
+}
+
+.membership {
+  background-color: white;
+}
+
+@media (width > 1100px){
+  .main{
+    font-size: 6rem;
+  }
+  .exh-banner {
+    font-size: 2rem; 
+  }
+}
+
+@media (width <= 1100px){
+  .main{
+    font-size: 4rem;
+  }
+
+  .exh-banner {
+    font-size: 1.8rem; 
+  }
+}
+
+@media (width <= 750px){
+  .main{
+    font-size: 3rem;
+    min-height: 800px;
+  }
+
+  .exh-banner {
+    font-size: 2.2rem; 
+  }
+}
+
+@media (width <= 550px){
+  .main{
+    font-size: 3rem;
+  }
+
+  .exh-banner {
+    font-size: 1.8rem; 
+  }
+
+  .card {
+    width: 18rem;
+    align-self: center;
+  }
+}
