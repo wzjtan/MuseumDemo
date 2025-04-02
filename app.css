@@ -136,6 +136,11 @@ a:hover {
   padding: 40px 0;
 }
 
+.exh-1-center {
+  text-align: center;
+  padding: 40px 0;
+}
+
 .exh-2-center {
   text-align: center;
   padding: 40px 0;
@@ -233,5 +238,19 @@ a:hover {
   .card {
     width: 18rem;
     align-self: center;
+  }
+}
+
+@media (width < 416px){ 
+  .exh-2-center {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+
+@media (width < 361px){ 
+  .exh-1-center {
+    text-align: center;
+    padding: 15px 0;
   }
 }
