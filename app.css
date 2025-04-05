@@ -118,31 +118,28 @@ body {
 .exh-banner {
   font-family: "Cinzel", serif;
   font-size: 2rem;
-  text-shadow: 2px 2px 2px #000000;   
+  text-shadow: 2px 2px 2px #000000;  
+  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.95); 
   color: rgb(255, 255, 255);
 }
 
 .exh-1 {
   background-image: url(images/Americas/Coronation\ Stone\ of\ Motecuhzoma\ II\ \(Stone\ of\ the\ Five\ Suns\).jpg);
-  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
   background-position: 30% 25%;
 }
 
 .exh-2 {
   background-image: url(images/Europe/Bust\ Of\ A\ Youth.jpg);
-  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
   background-position: 30% 35%;
 }
 
 .exh-3 {
-  background-image: url(images/Egypt/bust.jpg);
-  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
+  background-image: url(images/Egypt/bust2.jpg);
   background-position: 75% 30%;
 }
 
 .exh-4 {
   background-image: url(images/Asia/Bodhisattva.jpg);
-  box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.69);
   background-position: 30% 15%;
 }
 
@@ -174,7 +171,7 @@ a:hover {
 }
 
 .exh-3-text {
-  color: #3c7a6e;
+  color: #a98fe6;
 }
 
 .exh-4-text {
@@ -194,7 +191,7 @@ a:hover {
 }
 
 #exh-banner-3-inner:hover {
-  color: #3c7a6e;
+  color: #a98fe6;
 }
 
 #exh-banner-4-inner:hover {
