@@ -18,7 +18,7 @@ img {
 }
 
 body {
-  background-color: #F0F0F0;
+  background-color: black;
   color: white;
 }
 
@@ -28,6 +28,10 @@ body {
 
 .highlight {
   color: #9b1c31;
+}
+
+.landing-highlight {
+  color: #ff002b;
 }
 
 .navbar-brand {
