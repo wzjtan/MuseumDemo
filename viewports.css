@@ -14,14 +14,14 @@
     }
   }
   
-  @media (width < 994px) {
+  @media (width < 992px) {
     .exh-2-center {
       text-align: center;
       padding: 25px 0;
     }
   }
-  
-  @media (width <= 750px){
+
+  @media (width < 768px){
     .main{
       font-size: 3rem;
       min-height: 800px;
@@ -47,6 +47,13 @@
     }
   }
   
+  @media (width < 432px){ 
+    .exh-2-center {
+      text-align: center;
+      padding: 20px 0;
+    }
+  }
+
   @media (width < 416px){ 
     .exh-2-center {
       text-align: center;
@@ -54,7 +61,7 @@
     }
   }
   
-  @media (width < 368px){ 
+  @media (width < 381px){ 
     .exh-1-center {
       text-align: center;
       padding: 15px 0;
