@@ -1,0 +1,86 @@
+.banner-img {
+    max-width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  .exh-banner {
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #000000;  
+    box-shadow: inset 0px 0px 55px 38px rgba(0,0,0,0.95); 
+    color: rgb(255, 255, 255);
+  }
+  
+  .exh-1 {
+    background-image: url(images/Americas/Coronation\ Stone\ of\ Motecuhzoma\ II\ \(Stone\ of\ the\ Five\ Suns\).jpg);
+    background-position: 30% 25%;
+  }
+  
+  .exh-2 {
+    background-image: url(images/Europe/Bust\ Of\ A\ Youth.jpg);
+    background-position: 30% 35%;
+  }
+  
+  .exh-3 {
+    background-image: url(images/Egypt/bust2.jpg);
+    background-position: 75% 30%;
+  }
+  
+  .exh-4 {
+    background-image: url(images/Asia/Bodhisattva.jpg);
+    background-position: 30% 15%;
+  }
+  
+  .center {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .exh-1-center {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .exh-2-center {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .exh-1-text {
+    color:#73C2FB;
+  }
+  
+  .exh-2-text {
+    color: rgb(220, 17, 17)
+  }
+  
+  .exh-3-text {
+    color: #a98fe6;
+  }
+  
+  .exh-4-text {
+    color: rgb(241, 241, 15)
+  }
+  
+  .exh-banner:hover {
+    transition: 0.25s;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  }
+  
+  #exh-banner-1-inner:hover {
+    color: #73C2FB;
+  }
+  
+  #exh-banner-2-inner:hover {
+    color: rgb(220, 17, 17)
+  }
+  
+  #exh-banner-3-inner:hover {
+    color: #a98fe6;
+  }
+  
+  #exh-banner-4-inner:hover {
+    color: rgb(241, 241, 15)
+  }
