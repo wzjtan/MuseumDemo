@@ -13,7 +13,7 @@
 
 
 </head>
-<body class="base">
+<body>
 
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-base cinzel fw-bolder">
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link"href="">About</a>
+                    <a class="nav-link"href="#about">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#exhibits">Exhibits</a>
@@ -43,13 +43,31 @@
       <div class="main">
         <div class="container-fluid">
           <div class="container">
-            <p class="pt-serif-regular text-center">History brought back to life.</p>
+            <p class="pt-serif-regular text-center">History brought back to <span class="highlight">life</span>.</p>
           </div>
       </div>
     </section>
 
+    <section class="base" id="about">
+      <div class="container">
+        <h3 class="py-4 mx-auto cinzel text-center">The wormhole to other <span class="highlight">worlds</span></h3>
+        <div class="row align-items-center content">
+          <div class="col-md-6 order-1 order-md-2">
+            <img class="img-fluid" src="images/museum.jpg" alt="outside view of museum">
+          </div>
+          <div class="col-md-6 order-2 order-md-1">
+            <div class="row justify-content-center">
+              <div class="col-10 mb-5 mb-md0">
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ex tempore nostrum magni sapiente minima! Est iusto illo accusantium! Quod recusandae corrupti quos, debitis quidem voluptas inventore autem, odio atque vitae fugit deserunt aliquam dolorem eos nostrum quia minima eveniet!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Showing Exhibits -->
-    <section class="exhibits" id="exhibits">
+    <section class="default" id="exhibits">
         <div class="container">
           <h3 class="py-4 mx-auto text-center fw-bolder">Ongoing Exhibits</h3>
           <div class="row g-2">
@@ -70,7 +88,7 @@
     </section>
 
     <!-- Museum Hours -->
-    <section class="visiting">
+    <section class="default">
       <div class="container">
         <h3 class="py-4 mx-auto text-center fw-bolder">Visitation Info</h3>
         <div class="row">
@@ -86,7 +104,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="container fw-bolder mb-3">
+            <div class="container fw-bolder">
               <h4 class="text-center">Open Hours</h4>
               <hr>
               <div class="row">
@@ -230,12 +248,12 @@
             </div>
           </div>
         </div>
-        <hr>
       </div>
     </section>
     
-    <section class="membership py-5" id="membership">
+    <section class="default mb-5" id="membership">
       <div class="container">
+        <h3 class="py-4 mx-auto text-center fw-bolder">Membership Plans</h3>
         <div class="row text-center">
           <div class="col-md-4">
             <div class="d-flex flex-column">
@@ -248,7 +266,7 @@
                   <p class="text-center mb-2">10% discount off giftshop items</p>
                   <p class="text-center mb-2">Members-only showings</p>
                   <p class="text-center mb-2 pb-2">Members-only visting hours</p>
-                  <a href="#member" class="btn btn-primary">Join Now</a>
+                  <a href="#member" class="btn btn-style">Join Now</a>
                 </div>
               </div>
             </div>
@@ -264,7 +282,7 @@
                   <p class="text-center mb-2">15% discount off giftshop items</p>
                   <p class="text-center mb-2">Includes all benefits from Member</p>
                   <p class="text-center mb-2 pb-2">Opportunity to buy artwork</p>
-                  <a href="#backer" class="btn btn-primary">Join Now</a>
+                  <a href="#backer" class="btn btn-style">Join Now</a>
                 </div>
               </div>
             </div>
@@ -280,7 +298,7 @@
                   <p class="text-center mb-2">20% discount off giftshop items</p>
                   <p class="text-center mb-2">Includes all benefits from Backer</p>
                   <p class="text-center mb-2 pb-2">Exclusive access to auction house</p>
-                  <a href="#patron" class="btn btn-primary">Join Now</a>
+                  <a href="#patron" class="btn btn-style">Join Now</a>
                 </div>
               </div>
             </div>
@@ -291,14 +309,14 @@
     </section>
 
     
-    <section class="text-light p-5">
+    <section class="text-light p-5 base">
       <div class="container">
           <h2 class="text-center newsletter">Subscribe to our Newsletter</h2>
           <p class="text-center">Never miss out on news for our next upcoming exhibit.</p>
         <div class="d-flex justify-content-center">
           <div class="input-group news-input justify-content-center pt-3">
               <input type="text" class="form-control input-width" placeholder="Enter Email" />
-              <button class="btn btn-dark btn-lg" type="button">Submit</button>
+              <button class="btn btn-lg btn-style" type="button">Submit</button>
             </div>
           </div>
         </div>
@@ -307,23 +325,18 @@
 
 
     <!-- Footer Notes -->
-    <footer class="p-5 position-relative">
+    <footer class="p-5 position-relative base">
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-lg-start h5">Copyright &copy; 2025 Ipsum History Museum </div>
           <div class="col-md-6 text-lg-end h5"> Follow us at:
-            <a href="#facebook" class="btn btn-lg bi bi-facebook p-1 icon-size"></a>
-            <a href="#instagram" class="btn btn-lg bi bi-instagram p-1 icon-size"></a>
-            <a href="#linkedin" class="btn btn-lg bi bi-linkedin p-1 icon-size"></a>
-            <a href="#twitter" class="btn btn-lg bi bi-twitter p-1 icon-size"></a>
+            <a href="#facebook" class="btn btn-lg bi bi-facebook p-1 icon"></a>
+            <a href="#instagram" class="btn btn-lg bi bi-instagram p-1 icon"></a>
+            <a href="#linkedin" class="btn btn-lg bi bi-linkedin p-1 icon"></a>
+            <a href="#twitter" class="btn btn-lg bi bi-twitter p-1 icon"></a>
           </div>
         </div>
       </div>
     </footer>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
